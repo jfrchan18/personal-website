@@ -379,7 +379,7 @@
      ========================= */
   .contact-footer{
     background: linear-gradient(180deg, var(--blue-800), var(--blue-700));
-    color:#ffffff; padding:4rem 2rem 2rem;
+    color:#1a4a8a; padding:4rem 2rem 2rem;
   }
   .contact-info{
     background: linear-gradient(180deg, rgba(255,255,255,.95), rgba(255,255,255,.9));
@@ -415,10 +415,10 @@
   }
   .contact-label{ font-weight:700; color:#1e9bee; min-width:80px; }
   .contact-item a{ color:#1e9bee; text-decoration:none; font-weight:600; transition: color .2s ease; }
-  .contact-item a:hover{ color:#ffffff; }
+  .contact-item a:hover{ color:#1a4a8a; }
   
   .social-media{ text-align:center; margin-bottom:2.4rem; }
-  .social-media h4{ font-size:1.2rem; font-weight:800; margin:0 0 1rem; color:#ffffff; }
+  .social-media h4{ font-size:1.2rem; font-weight:800; margin:0 0 1rem; color:#1a4a8a; }
   .social-links{ display:flex; justify-content:center; gap:1rem; flex-wrap:wrap; }
   .social-link{
     display:flex; align-items:center; gap:.6rem; padding:.9rem 1.2rem;
