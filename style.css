@@ -32,7 +32,7 @@
     background: var(--white);
   }
   .container{width:min(1080px,92vw); margin:0 auto;}
-  .container-full{width:min(1200px,95vw); margin:0 auto; padding:0 2rem;}
+  .container-full{width:min(900px,90vw); margin:0 auto; padding:0 2rem;}
   .section{padding:clamp(40px,7vw,96px) 0;}
   .section-title{
     font-size: clamp(1.6rem, 2.6vw, 2.1rem);
@@ -241,7 +241,7 @@
   }
   
   .experience-card{
-    width:100%; max-width:1000px; margin:14px auto 20px;
+    width:100%; max-width:800px; margin:14px auto 20px;
     background: linear-gradient(180deg, #ffffff, var(--blue-50));
     border:1px solid var(--blue-150);
     border-radius:18px; padding:20px;
@@ -293,7 +293,7 @@
     background: linear-gradient(135deg, var(--blue-50), #ffffff);
   }
   .education-card{
-    width:100%; max-width:500px; margin:0 auto; background: linear-gradient(180deg, #ffffff, var(--blue-50));
+    width:100%; max-width:400px; margin:0 auto; background: linear-gradient(180deg, #ffffff, var(--blue-50));
     border:1px solid var(--blue-150); border-radius:18px; box-shadow: var(--shadow);
     transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease; overflow:hidden; position:relative;
   }
@@ -340,7 +340,7 @@
     background: linear-gradient(135deg, var(--blue-50), #ffffff);
   }
   .publications-card{
-    width:100%; max-width:800px; margin:0 auto; background: linear-gradient(180deg, #ffffff, var(--blue-50));
+    width:100%; max-width:700px; margin:0 auto; background: linear-gradient(180deg, #ffffff, var(--blue-50));
     border:1px solid var(--blue-150); border-radius:18px; box-shadow: var(--shadow);
     overflow:hidden; position:relative; transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
   }
@@ -380,22 +380,22 @@
     color:#ffffff; padding:4rem 2rem 2rem;
   }
   .contact-info{
-    background: linear-gradient(180deg, rgba(255,255,255,.15), rgba(255,255,255,.08));
-    padding:1.6rem; border-radius:16px; border:1px solid rgba(255,255,255,.3);
-    box-shadow: 0 8px 22px rgba(0,0,0,.2);
+    background: linear-gradient(180deg, rgba(255,255,255,.95), rgba(255,255,255,.9));
+    padding:1.6rem; border-radius:16px; border:1px solid rgba(0,0,0,.1);
+    box-shadow: 0 8px 22px rgba(0,0,0,.15);
   }
-  .contact-info h3{ font-size:1.2rem; font-weight:800; margin:0 0 1rem; color:#ffffff; }
-  .contact-label{ font-weight:700; color:#ffffff; min-width:80px; opacity:0.9; }
-  .contact-info a{ color:#ffffff; text-decoration:none; font-weight:600; transition: color .2s ease; opacity:0.9; }
-  .contact-info a:hover{ color:#ffffff; opacity:1; }
+  .contact-info h3{ font-size:1.2rem; font-weight:800; margin:0 0 1rem; color:#1a1a1a; }
+  .contact-label{ font-weight:700; color:#2d2d2d; min-width:80px; }
+  .contact-info a{ color:#1a4a8a; text-decoration:none; font-weight:600; transition: color .2s ease; }
+  .contact-info a:hover{ color:#0d3a7a; }
   .footer-content{ max-width:1200px; margin:0 auto; }
   .contact-header{ text-align:center; margin-bottom:2.2rem; }
   .contact-header h2{
     font-size:2.3rem; font-weight:800; margin:0 0 .8rem;
-    color:#ffffff;
-    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    color:#1a1a1a;
+    text-shadow: 0 1px 2px rgba(255,255,255,0.8);
   }
-  .contact-header p{ font-size:1.1rem; color:#ffffff; margin:0; opacity:0.9; }
+  .contact-header p{ font-size:1.1rem; color:#2d2d2d; margin:0; font-weight:500; }
   
   .contact-grid{
     display:grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -431,10 +431,10 @@
   .social-link svg{ width:24px; height:24px; }
   
   .footer-bottom{
-    text-align:center; padding-top:1.6rem; border-top:1px solid rgba(255,255,255,.22); color:#ffffff;
+    text-align:center; padding-top:1.6rem; border-top:1px solid rgba(0,0,0,.1); color:#2d2d2d;
   }
-  .back-to-top{ color:#ffffff; text-decoration:none; border-bottom:1px dotted transparent; opacity:0.9; }
-  .back-to-top:hover{ color:#ffffff; border-color: currentColor; opacity:1; }
+  .back-to-top{ color:#1a4a8a; text-decoration:none; border-bottom:1px dotted transparent; font-weight:500; }
+  .back-to-top:hover{ color:#0d3a7a; border-color: currentColor; }
   
   /* =========================
      RESPONSIVE TWEAKS
